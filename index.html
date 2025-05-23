@@ -244,7 +244,7 @@
 		    'total_gasto': v => new Intl.NumberFormat('pt-BR', {
 			style: 'currency',
                         currency: 'BRL'
-		}).formta(v)
+		}).format(v)
                 };
                 return formatadores[cabecalho]?.(valor) || valor;
             } catch (error) {
